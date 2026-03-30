@@ -64,12 +64,13 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Galapan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=58a6ff&text_color=8b949e" height="150" alt="Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Galapan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&hide=html,css" height="150" alt="Top Langs" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Galapan&theme=tokyonight&hide_border=true&background=0d1117&stroke=30363d&ring=ffffff&fire=58a6ff&currStreakLabel=ffffff&sideLabels=8b949e" height="150" alt="Streak" />
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Galapan&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=58a6ff&text_color=8b949e&cache_seconds=86400" height="160" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Galapan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&hide=html,css&langs_count=6&cache_seconds=86400" height="160" alt="Top Languages" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Galapan&theme=tokyonight&hide_border=true&background=0d1117&stroke=30363d&ring=ffffff&fire=58a6ff&currStreakLabel=ffffff&sideLabels=8b949e" height="160" alt="GitHub Streak" />
+</p>
 
 ---
 
