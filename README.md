@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hola, soy Bastian Sanchez 👋
+# Hola, soy Bastian AKA Galapan
 
 **Fullstack Developer · Ingeniería en TI · UI Enthusiast**
 
