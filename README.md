@@ -69,5 +69,3 @@ const galapan = {
 </p>
 
 <img src="assets/footer.svg" width="100%" alt="Las manos de La creación de Adán escritas en glifos. Hecho a mano, glifo a glifo." />
-
-<p align="center"><sub>Hecho con <code>&lt;/&gt;</code> y ☕ desde Apizaco, Tlaxcala, México</sub></p>
