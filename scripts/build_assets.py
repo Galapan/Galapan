@@ -149,12 +149,12 @@ def glyph_rows(
     return grid
 
 
-def level_css(prefix: str) -> str:
+def level_css(prefix: str, accent: str = hex_rgb(LIME_LIGHT)) -> str:
     rules = []
     for i in range(LEVELS):
         t = (i + 0.5) / LEVELS
         rules.append(f".{prefix}{i}{{fill:{hex_rgb(mix(GREY_DARK, GREY_LIGHT, t ** 0.75))}}}")
-    rules.append(f".{prefix}{LEVELS}{{fill:{hex_rgb(LIME_LIGHT)}}}")
+    rules.append(f".{prefix}{LEVELS}{{fill:{accent}}}")
     return "".join(rules)
 
 
@@ -358,6 +358,7 @@ PROJECTS = [
     },
     {
         "slug": "portfolio",
+        "accent": FG,  # Sin lima: tarjeta en blanco y grises.
         "index": "03",
         "title": "Portafolio",
         "year": "2026",
@@ -410,14 +411,15 @@ def build_project(p: dict) -> None:
     cell, font = 7.0, 9.2
     cols, rows = int(sw / cell), int(sh / cell)
     grid = screenshot_glyphs(shot, cols, rows, seed=len(p["slug"]))
+    accent = p.get("accent", ACCENT)
 
     css = (
-        level_css("p")
+        level_css("p", accent)
         + ".gl{animation:gl 1.1s 1.5s ease-in both}@keyframes gl{to{opacity:0}}"
         ".sh{animation:sh 1.1s 1.5s ease-out both}@keyframes sh{from{opacity:0}to{opacity:1}}"
         ".rw{animation:w .5s ease-out both}.rw tspan{animation:ink 1.2s ease-out both;animation-delay:inherit}"
         "@keyframes w{from{opacity:0}to{opacity:1}}"
-        f"@keyframes ink{{0%{{fill:{ACCENT}}}}}"
+        f"@keyframes ink{{0%{{fill:{accent}}}}}"
         ".rv{animation:rv .9s cubic-bezier(.22,1,.36,1) both}"
         "@keyframes rv{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}"
     )
@@ -441,7 +443,7 @@ def build_project(p: dict) -> None:
     y = sy + 30
     text = [
         f'<text x="{tx}" y="{y}" class="m" font-size="13" letter-spacing="1.3" fill="{SUBTLE}">'
-        f'<tspan fill="{ACCENT}">{p["index"]}</tspan>  //  {p["year"]}</text>',
+        f'<tspan fill="{accent}">{p["index"]}</tspan>  //  {p["year"]}</text>',
         f'<text x="{tx - 2}" y="{y + 66}" class="s" font-size="54" font-weight="500" letter-spacing="-1.6" '
         f'fill="{FG}">{escape(p["title"])}</text>',
     ]
@@ -467,7 +469,7 @@ def build_project(p: dict) -> None:
         )
         chip_x += cw + 8
     text.append(
-        f'<text x="{tx}" y="{sy + sh - 4}" class="m" font-size="14" fill="{ACCENT}">↗ {p["url"]}</text>'
+        f'<text x="{tx}" y="{sy + sh - 4}" class="m" font-size="14" fill="{accent}">↗ {p["url"]}</text>'
     )
     parts.append(f'<g class="rv" style="animation-delay:.3s">{"".join(text)}</g>')
     parts.append(f'<rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="15.5" fill="none" stroke="{BORDER}"/>')
