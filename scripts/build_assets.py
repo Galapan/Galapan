@@ -519,16 +519,13 @@ def build_footer() -> None:
     adam_w = ca * cell + 2
     god_w = cg * cell + 2
     css = level_css("f") + (
-        ".rv{animation:rv 1s 1.6s cubic-bezier(.22,1,.36,1) both}"
-        "@keyframes rv{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}"
         ".spark{animation:sp 3s 2.4s ease-in-out infinite both}@keyframes sp{0%,100%{opacity:.2}50%{opacity:1}}"
     )
     (tax, tay), (tgx, tgy) = fingertip(ga, True), fingertip(gg, False)
     spark_x = (ax + (tax + 1) * cell + gx + tgx * cell) / 2
     spark_y = top + ((tay + tgy) / 2 + 1) * cell + 4
-    label = "Hecho a mano, glifo a glifo"
     parts = [
-        svg_open(w, h, "Las manos de La creación de Adán escritas en glifos. Hecho a mano, glifo a glifo.", css),
+        svg_open(w, h, "Las manos de La creación de Adán escritas en glifos.", css),
         "<defs>"
         f'<clipPath id="a"><rect x="{ax + adam_w:.1f}" y="0" width="0" height="{h}">'
         f'<animate attributeName="width" from="0" to="{adam_w:.1f}" dur="{reveal}s" fill="freeze" calcMode="spline" keySplines=".22 1 .36 1" keyTimes="0;1"/>'
@@ -545,8 +542,6 @@ def build_footer() -> None:
         f'<g clip-path="url(#g)">{glyph_text(gg, gx, top, cell, font, "f")}</g>',
         f'<text x="{spark_x:.0f}" y="{spark_y:.0f}" text-anchor="middle" class="m spark" font-size="16" fill="{ACCENT}">+</text>',
         "</g>",
-        f'<g class="rv"><text x="{w / 2}" y="{h - 34}" text-anchor="middle" class="m" font-size="13" '
-        f'letter-spacing="1.3" fill="{SUBTLE}">// {label.upper()}</text></g>',
         f'<rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="15.5" fill="none" stroke="{BORDER}"/>',
         "</svg>",
     ]

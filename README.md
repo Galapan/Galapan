@@ -68,4 +68,4 @@ const galapan = {
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Galapan&layout=compact&hide_border=true&bg_color=0e0e10&title_color=f4f4f5&text_color=a1a1aa&hide=html,css&langs_count=6&cache_seconds=86400" height="165" alt="Lenguajes más usados" />
 </p>
 
-<img src="assets/footer.svg" width="100%" alt="Las manos de La creación de Adán escritas en glifos. Hecho a mano, glifo a glifo." />
+<img src="assets/footer.svg" width="100%" alt="Las manos de La creación de Adán escritas en glifos." />
