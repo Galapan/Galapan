@@ -29,11 +29,10 @@ BORDER = "#2a2a30"
 FG = "#f4f4f5"
 MUTED = "#a1a1aa"
 SUBTLE = "#71717a"
-ACCENT = "#a3e635"
+ACCENT = FG  # Sin lima en el README: el acento es blanco.
 GREY_DARK = (0x3F, 0x3F, 0x46)
 GREY_LIGHT = (0xE4, 0xE4, 0xE7)
-LIME_DARK = (0x36, 0x53, 0x14)
-LIME_LIGHT = (0xA3, 0xE6, 0x35)
+LIME_LIGHT = (0xF4, 0xF4, 0xF5)  # Celdas de acento en blanco, no lima.
 
 # Rampa de Paul Bourke, de dispersa a densa (la misma del portafolio).
 RAMP = " .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
@@ -358,7 +357,6 @@ PROJECTS = [
     },
     {
         "slug": "portfolio",
-        "accent": FG,  # Sin lima: tarjeta en blanco y grises.
         "index": "03",
         "title": "Portafolio",
         "year": "2026",

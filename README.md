@@ -3,10 +3,10 @@
 </a>
 
 <p align="center">
-  <a href="https://bastian4le.vercel.app"><img src="https://img.shields.io/badge/Portafolio-0e0e10?style=for-the-badge&logo=vercel&logoColor=a3e635" alt="Portafolio" /></a>
+  <a href="https://bastian4le.vercel.app"><img src="https://img.shields.io/badge/Portafolio-0e0e10?style=for-the-badge&logo=vercel&logoColor=f4f4f5&labelColor=0e0e10" alt="Portafolio" /></a>
   <a href="https://www.linkedin.com/in/bastian4le/"><img src="https://img.shields.io/badge/LinkedIn-0e0e10?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2EzZTYzNSIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU2di01LjU3YzAtMS4zMy0uMDItMy4wNC0xLjg1LTMuMDQtMS44NSAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjh6TTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEzIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTN6TTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDV6Ii8+PC9zdmc+" alt="LinkedIn" /></a>
-  <a href="mailto:bastian4le@gmail.com"><img src="https://img.shields.io/badge/Email-0e0e10?style=for-the-badge&logo=gmail&logoColor=a3e635" alt="Email" /></a>
-  <a href="https://www.instagram.com/g4lapan/"><img src="https://img.shields.io/badge/Instagram-0e0e10?style=for-the-badge&logo=instagram&logoColor=a3e635" alt="Instagram" /></a>
+  <a href="mailto:bastian4le@gmail.com"><img src="https://img.shields.io/badge/Email-0e0e10?style=for-the-badge&logo=gmail&logoColor=f4f4f5&labelColor=0e0e10" alt="Email" /></a>
+  <a href="https://www.instagram.com/g4lapan/"><img src="https://img.shields.io/badge/Instagram-0e0e10?style=for-the-badge&logo=instagram&logoColor=f4f4f5&labelColor=0e0e10" alt="Instagram" /></a>
 </p>
 
 ### `//` Sobre mí
@@ -64,7 +64,7 @@ const galapan = {
 ### `//` Actividad
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Galapan&show_icons=true&count_private=true&hide_border=true&bg_color=0e0e10&title_color=f4f4f5&icon_color=a3e635&text_color=a1a1aa&ring_color=a3e635&cache_seconds=86400" height="165" alt="Estadísticas de GitHub" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Galapan&show_icons=true&count_private=true&hide_border=true&bg_color=0e0e10&title_color=f4f4f5&icon_color=f4f4f5&text_color=a1a1aa&ring_color=f4f4f5&cache_seconds=86400" height="165" alt="Estadísticas de GitHub" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Galapan&layout=compact&hide_border=true&bg_color=0e0e10&title_color=f4f4f5&text_color=a1a1aa&hide=html,css&langs_count=6&cache_seconds=86400" height="165" alt="Lenguajes más usados" />
 </p>
 
